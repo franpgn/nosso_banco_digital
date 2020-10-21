@@ -25,20 +25,19 @@
 }
 
 #page-page .content-wrapper main{
-    max-width: 350px;
+    max-width: 650px;
 }
 
 #page-page .content-wrapper main h1{
-    font-size: 150px;
+    font-size: 120px;
     font-weight: 900;
-    line-height: 140px;
+    line-height: 100px;
     position: absolute;
     color: white;
     font-family: Nunito;
     left: 5%;
-    right: 61.46%;
-    top: 5%;    
-    bottom: 32.32%;
+    right: 50%;
+    bottom: 9%;
 }
 
 .content-wrapper .enter-app{
