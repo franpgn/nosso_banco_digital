@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-#page-signupfirst {
+#page-signupsecond {
     background: linear-gradient(107.97deg, #065F7B 0%, #06667B 0.01%, rgba(255, 255, 255, 0) 100%), #15AB60;
     mix-blend-mode: darken;
     display: flex;
@@ -10,11 +10,11 @@ body{
     align-items: center;
   }
   
-  #page-signupfirst .content-wrapper main{
+  #page-signupsecond .content-wrapper main{
     max-width: 350px;
 }
 
-#page-signupfirst .content-wrapper main h1{
+#page-signupsecond .content-wrapper main h1{
     margin-left: 7.8%;
     font-size: 150px;
     font-weight: 900;
@@ -28,13 +28,13 @@ body{
     bottom: 32.32%;
 }
 
-  #page-signupfirst main {
+  #page-signupsecond main {
     flex: 1;
   }
   
-  form.signupfirst-form {
+  form.signupsecond-form {
     width: 300px;
-    height: 464px;
+    height: 507px;
     margin: 50px auto;
     margin-right: 50px;
 
@@ -42,21 +42,21 @@ body{
     border: 1px solid #D3E2E5;
     border-radius: 20px;
   
-    padding: 64px 80px;
+    padding: 44px 60px;
   
     overflow: hidden;
   }
 
-  form.signupfirst-form fieldset {
+  form.signupsecond-form fieldset {
     border: 0;
   }
 
-  form.signupfirst-form .input-block + .input-block {
+  form.signupsecond-form .input-block + .input-block {
     margin-top: 24px;
   }
   
-  form.signupfirst-form .input-block input,
-  form.signupfirst-form .input-block textarea {
+  form.signupsecond-form .input-block input,
+  form.signupsecond-form .input-block textarea {
     width: 100%;
     background: #F5F8FA;
     border: 1px solid #D3E2E5;
@@ -65,12 +65,12 @@ body{
     color: #727272;
   }
   
-  form.signupfirst-form .input-block input {
+  form.signupsecond-form .input-block input {
     height: 50px;
     padding: 0 16px;
   }
   
-  form.signupfirst-form .input-block textarea {
+  form.signupsecond-form .input-block textarea {
     min-height: 120px;
     max-height: 240px;
     resize: vertical;
@@ -78,8 +78,8 @@ body{
     line-height: 28px;
   }
 
-  form.signupfirst-form button.confirm-button {
-    margin-top: 50px;
+  form.signupsecond-form button.confirm-button {
+    margin-top: 35px;
     font-size: 20px;
     font-weight: 500;
     font-family: Nunito;
@@ -99,6 +99,6 @@ body{
     transition: background-color 0.2s;
   }
   
-  form.signupfirst-form button.confirm-button:hover {
+  form.signupsecond-form button.confirm-button:hover {
     background: #D87E15;
   }

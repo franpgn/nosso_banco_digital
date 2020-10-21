@@ -8,8 +8,8 @@ import javax.persistence.Id;
 import javax.validation.constraints.Email;
 
 @Entity
-public class User 
-{
+public class User {
+
     @Id
     @GeneratedValue
     private int id;
@@ -118,10 +118,12 @@ public class User
         return isEmail.matches(regex);
     }
 
+    
+
     @Override
     public String toString() {
-        return "User [cpf=" + cpf + ", date=" + date + ", email=" + email + ", name=" + name + ", surname=" + surname
-                + "]";
+        return "User [cpf=" + cpf + ", date=" + date + ", email=" 
+        + email + ", name=" + name + ", surname=" + surname+ "]";
     }
 
 }
